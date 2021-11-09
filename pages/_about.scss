@@ -1,0 +1,79 @@
+// ABOUT
+.about {
+  display: grid;
+  grid-gap: 16em;
+  margin-bottom: 16em;
+  margin-top: 310px;
+  position: relative;
+  // @include set-background($bg-color);
+
+  &__container {
+    padding: 0 80px;
+    margin: auto;
+    position: relative;
+    z-index: 10;
+  }
+  h1 {
+    font-size: 59px;
+    font-weight: 500;
+    font-family: $font;
+    line-height: 1.2;
+    padding: 30px 0;
+  }
+  p {
+    font-size: 15px;
+    font-family: $text-font;
+    line-height: 2;
+    padding-right: 33px;
+  }
+  .showcase__1 {
+    background-image: url("../img/01.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 13.2%;
+    background-position-y: 12%;
+    background-position-x: -1.5%;
+    position: relative;
+    z-index: 10;
+  }
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3em;
+  }
+  &__details {
+    flex-basis: 50%;
+
+    .line {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+
+      h5 {
+        letter-spacing: 2px;
+        color: $gold;
+      }
+    }
+  }
+  .container {
+    padding: 0 80px;
+  }
+  .showcase__2 {
+    background-image: url("../img/02.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 16%;
+    background-position-y: 12%;
+    background-position-x: 54%;
+  }
+
+  .showcase__3 {
+    background-image: url("../img/03.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 16%;
+    background-position-y: 13%;
+    background-position-x: -1%;
+  }
+}

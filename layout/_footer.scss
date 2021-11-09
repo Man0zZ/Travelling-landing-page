@@ -1,0 +1,68 @@
+.footer {
+  padding-bottom: 12em;
+
+  &__container {
+    width: 100%;
+    padding: 0 80px;
+    margin: auto;
+    display: flex;
+    gap: 2em;
+    justify-content: space-between;
+
+    & * {
+      margin: 0 0 0.5em;
+      line-height: 2;
+    }
+
+    p {
+      font-size: 15px;
+      font-family: $text-font;
+      padding-bottom: 70px;
+    }
+    a {
+      font-size: 15px;
+      font-family: $text-font;
+
+      &:hover {
+        color: $gold;
+      }
+    }
+    h4 {
+      font-family: $text-font;
+      padding-bottom: 10px;
+      color: $gold;
+      font-size: 22px;
+    }
+    small {
+      font-family: $text-font;
+      font-size: 15px;
+      opacity: 0.5;
+
+      a {
+        border-bottom: 2px solid rgb(97, 97, 97);
+      }
+    }
+  }
+  &__logo {
+    h3 {
+      font-size: 35px;
+      letter-spacing: 2px;
+      font-weight: 500;
+      margin: 0;
+    }
+  }
+  .blog {
+    display: flex;
+    justify-content: space-between;
+    gap: 6.2em;
+    margin-top: 1em;
+  }
+  .col__1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .col__2 {
+    display: flex;
+    flex-direction: column;
+  }
+}

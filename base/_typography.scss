@@ -1,0 +1,14 @@
+/**
+ * Basic typography style for copy text
+ */
+body {
+  color: $text-color;
+  background-color: $bg-color;
+  // @include set-background($bg-color);
+}
+.nav__logo {
+  font-family: $font;
+}
+.footer__logo {
+  font-family: $font;
+}

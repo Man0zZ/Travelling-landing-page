@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/**
+ * Basic styles for links
+ */
+a {
+  color: $text-color;
+  text-decoration: none;
+  font-family: $text-font;
+}
+ul {
+  list-style: none;
+}
